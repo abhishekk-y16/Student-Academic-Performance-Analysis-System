@@ -6,7 +6,7 @@ A comprehensive data analytics system that explores the relationship between dem
 
 **Students Performance in Exams** (Kaggle) — 1,000 student records across 8 dimensions:
 - **Categorical**: gender, race/ethnicity, parental level of education, lunch type, test preparation course
-- **Continuous**: math score, reading score, writing score (0–100)
+- **Continuous**: math score, reading score, writing score (0–100).
 
 ## Project Structure
 
