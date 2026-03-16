@@ -279,7 +279,7 @@ with tab3:
 # ── Tab 4: Predictive Model ─────────────────────────────────────────────────
 with tab4:
     st.subheader("🤖 Student Performance Predictor")
-    st.markdown("Enter a Student profile to Predict their expected scores using trained Random Forest models.")
+    st.markdown("Enter a Student profile to Predict their Expected scores using Trained Random Forest models.")
 
     # Check if models exist
     model_dir = os.path.join(os.path.dirname(__file__), "..", "models")
