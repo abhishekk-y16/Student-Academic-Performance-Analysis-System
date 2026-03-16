@@ -28,7 +28,7 @@ st.set_page_config(
 # ── Data Loading (cached) ───────────────────────────────────────────────────
 @st.cache_data
 def load_and_prepare_data():
-    """Load dataset, validate, and add engineered features."""
+    """Load dataset, validate, and add Engineered features."""
     df = load_data()
     # Ensure score columns are numeric
     for col in ["math score", "reading score", "writing score"]:
