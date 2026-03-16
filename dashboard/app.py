@@ -42,7 +42,7 @@ df_full = load_and_prepare_data()
 
 # ── Sidebar Filters ─────────────────────────────────────────────────────────
 st.sidebar.title("🎛️ Filters")
-st.sidebar.markdown("Use filters to explore specific student subgroups.")
+st.sidebar.markdown("Use Filters to explore Specific student subgroups.")
 
 selected_genders = st.sidebar.multiselect(
     "Gender",
