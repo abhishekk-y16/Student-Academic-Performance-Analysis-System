@@ -1,4 +1,4 @@
-"""Student Academic Performance Dashboard — Streamlit Application."""
+"""Student Academic Performance Dashboard — Streamlit App."""
 
 import sys
 import os
