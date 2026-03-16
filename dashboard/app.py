@@ -279,7 +279,7 @@ with tab3:
 # ── Tab 4: Predictive Model ─────────────────────────────────────────────────
 with tab4:
     st.subheader("🤖 Student Performance Predictor")
-    st.markdown("Enter a student profile to predict their expected scores using trained Random Forest models.")
+    st.markdown("Enter a Student profile to Predict their expected scores using trained Random Forest models.")
 
     # Check if models exist
     model_dir = os.path.join(os.path.dirname(__file__), "..", "models")
@@ -287,7 +287,7 @@ with tab4:
 
     if not models_available:
         st.warning(
-            "⚠️ ML models not found. Train them first by running:\n\n"
+            "⚠️ ML models Not found. Train them first by running:\n\n"
             "```python\n"
             "python -c \"from src.ml_model import train_and_save_models; "
             "from src.data_loader import load_data; "
