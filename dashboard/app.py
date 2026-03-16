@@ -204,7 +204,7 @@ with tab2:
         )
         st.plotly_chart(fig_gender, use_container_width=True)
 
-    # Parental Education
+    # Parental Edu
     st.subheader("Impact of Parental Education Level")
     fig_edu = px.box(
         filtered_df,
