@@ -16,7 +16,7 @@ import plotly.express as px
 from src.data_loader import load_data, validate_data
 from src.feature_engineering import add_composite_scores
 
-# ── Page Configuration ──────────────────────────────────────────────────────
+#  Page Configuration 
 st.set_page_config(
     page_title="Student Academic Performance Dashboard",
     page_icon="📊",
@@ -25,7 +25,7 @@ st.set_page_config(
 )
 
 
-# ── Data Loading (cached) ───────────────────────────────────────────────────
+#Data Loading (cached) 
 @st.cache_data
 def load_and_prepare_data():
     """Load dataset, validate, and add Engineered features."""
@@ -40,7 +40,7 @@ def load_and_prepare_data():
 
 df_full = load_and_prepare_data()
 
-# ── Sidebar Filters ─────────────────────────────────────────────────────────
+#  Sidebar Filters 
 st.sidebar.title("🎛️ Filters")
 st.sidebar.markdown("Use Filters to explore Specific student subgroups.")
 
